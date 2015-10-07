@@ -1,0 +1,26 @@
+{
+  "name": "jquery.double-keypress",
+  "version": "0.0.1",
+  "authors": [
+    "sukohi <capilano.sukohi@gmail.com>"
+  ],
+  "description": "A jQuery plugin to manage double keypress.",
+  "main": "jquery.double-keypress.js",
+  "keywords": [
+    "jquery",
+    "double",
+    "keypress",
+    "event"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
