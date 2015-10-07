@@ -51,6 +51,22 @@ Usage
 
     });
     
+**Multiple keyCodes**
+    
+    $('body').dbKeypress([16, 17], function(e){
+
+        if(e.keyCode == 16) {
+
+            alert('SHIFT key was double-pressed');
+
+        } else if(e.keyCode == 17) {
+
+            alert('CTRL key was double-pressed');
+
+        }
+
+    });
+    
 **About KeyCode**
 
 See [here](http://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes)
