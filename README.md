@@ -1,7 +1,7 @@
 jquery.double-keypress
 =========================
 
-A jQuery package to manage double keypress.
+A jQuery plugin to manage double keypress.
 
 Requirements
 ====
