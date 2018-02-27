@@ -37,7 +37,7 @@
 				var keyCode = e.keyCode || e.which;
 				var targetKeyCodes = (typeof(targetKeyCode) == 'number') ? [targetKeyCode] : targetKeyCode;
 
-				if(targetKeyCode != null && !$.inArray(keyCode, targetKeyCodes) == -1) {
+				if(targetKeyCode != null && $.inArray(keyCode, targetKeyCodes) == -1) {
 
 					DKP.clear();
 
