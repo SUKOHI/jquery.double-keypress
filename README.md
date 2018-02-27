@@ -19,7 +19,7 @@ Usage
 
 **Simple Way**
 
-    $(document).ready(function(){
+    $(function(){
 
 		var keyCode = 16;   // means SHIFT key (and means any if null)
 
@@ -33,7 +33,7 @@ Usage
     
 **with Options**
 
-    $(document).ready(function(){
+    $(function(){
 
         var keyCode = 16;
         var options = {
@@ -70,6 +70,11 @@ Usage
 **About KeyCode**
 
 See [here](http://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes)
+
+Contributor
+==
+
+[sdavidg](https://github.com/sdavidg)
 
 
 License
